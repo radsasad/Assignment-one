@@ -9,9 +9,10 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* header section start */
 .header {
     max-width: 100%;
-    min-height: 652px;    
+    min-height: 652px;
     margin: 0 auto;
 }
 
@@ -69,8 +70,9 @@ body {
     text-align: center;
     text-decoration: none;
 }
+
 .btn-black:hover {
-   background-color: rgb(36, 34, 34);
+    background-color: rgb(36, 34, 34);
 }
 
 
@@ -112,5 +114,100 @@ body {
     letter-spacing: 0%;
     text-align: center;
     max-width: 998px;
-    margin:16px 0 ;
+    margin: 16px 0;
 }
+
+/* header section end */
+
+
+/* development section start */
+.development-container {
+    max-width: 1140px;
+    height: 1395px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 60px auto;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-description h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.title-description p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cart-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    border-radius: 16px;
+    padding: 0 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.card-info h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-info p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.card-info a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px;
+    margin: 20px 0;
+
+
+}
+
+
+
+
+/* development section end */

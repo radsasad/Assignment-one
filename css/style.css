@@ -123,7 +123,7 @@ body {
 /* development section start */
 .development-container {
     max-width: 1140px;
-    height: 1395px;
+    height: 1100px;
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -163,8 +163,19 @@ body {
     align-items: center;
     margin-top: 48px;
     border-radius: 16px;
-    padding: 0 48px;
+    padding: 20px 48px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.cart-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    border-radius: 16px;
+    padding: 20px 48px;
+    gap: 45px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
 .card-info h3 {
@@ -203,8 +214,6 @@ body {
     opacity: 0.7;
     padding: 10px;
     margin: 20px 0;
-
-
 }
 
 
